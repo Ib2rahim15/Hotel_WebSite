@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 *:focus,
-*:visited {
+*:visited,*:active,*:link {
   color: var(--textColor);
 }
 :root {
