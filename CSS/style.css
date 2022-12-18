@@ -610,7 +610,7 @@ header {
   -ms-transition: all 250ms ease;
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
-  color: var(--textColor);
+  color: var(--Gcolor);
   text-indent: 15%;
   font-size: 1rem;
 }
@@ -659,10 +659,10 @@ header {
   -ms-transition: all 250ms ease;
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
-  color: #5e5e5e;
+  color:var(--Gcolor);
 }
 .textarea_wrapper textarea:focus {
-  background: #6d9886a8;
+  background: var(--Bcolor);
   box-shadow: inset 2px 2px 5px 0 #dadada;
   outline: none;
 }
@@ -836,7 +836,7 @@ header {
 
   .ConTake {
     grid-template-columns: repeat(1, 100%) !important;
-    margin: 10rem;
+    margin: 0rem auto;
   }
 }
 /* Medium */
@@ -881,7 +881,7 @@ header {
 
   .ConTake {
     grid-template-columns: repeat(1, 100%) !important;
-    margin: 10rem;
+    margin: 0rem auto;
   }
 }
 /* Large */
@@ -923,9 +923,5 @@ header {
     gap: 5rem;
   }
 
-  .ConTake {
-    grid-template-columns: repeat(1, 100%) !important;
-    margin: 10rem;
-  }
 }
 /* End Responsev */
